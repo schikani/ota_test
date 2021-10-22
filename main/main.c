@@ -131,6 +131,8 @@ void on_button_pushed(void *params)
 void app_main(void)
 {
 
+    printf("NEW FEATURE RELEASED!!!!!!!\n");
+
     const esp_partition_t *running_partition = esp_ota_get_running_partition();
     esp_app_desc_t running_partition_description;
     esp_ota_get_partition_description(running_partition, &running_partition_description);
