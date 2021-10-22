@@ -131,7 +131,7 @@ void on_button_pushed(void *params)
 void app_main(void)
 {
 
-    printf("NEW FEATURE RELEASED! again!\n");
+    printf("Hello from SHAPET!\n");
 
     const esp_partition_t *running_partition = esp_ota_get_running_partition();
     esp_app_desc_t running_partition_description;
