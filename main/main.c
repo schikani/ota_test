@@ -131,7 +131,7 @@ void on_button_pushed(void *params)
 void app_main(void)
 {
 
-    printf("Hello from SHAPET!\n");
+    printf("Hello! Welcome to SHAPET INDUCTION COMPANY\n");
 
     const esp_partition_t *running_partition = esp_ota_get_running_partition();
     esp_app_desc_t running_partition_description;
